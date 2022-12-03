@@ -1,0 +1,24 @@
+<!-- task1 -->
+
+<div class="content" role="main">
+  <div class="disp">
+    Value on number on click event <span class="num-large">{{ num }}</span>
+  </div>
+  <div class="card-container">
+    <button class="card card-small" (click)="rstbtn()">
+      <span>Reset</span>
+    </button>
+    <button class="card card-small" (click)="incbtn()">
+      <span>Increment ++</span>
+    </button>
+    <button class="card card-small" (click)="decbtn()">
+      <span>Decrement --</span>
+    </button>
+  </div>
+
+  <!-- click event task 2 -->
+  <div>
+    <button class="card card-small" (click)="onClick()">Click Me</button>
+    <p>{{ message }}</p>
+  </div>
+</div>
