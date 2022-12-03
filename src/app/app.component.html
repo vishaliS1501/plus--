@@ -5,20 +5,19 @@
     Value on number on click event <span class="num-large">{{ num }}</span>
   </div>
   <div class="card-container">
-    <button class="card card-small" (click)="rstbtn()">
-      <span>Reset</span>
-    </button>
-    <button class="card card-small" (click)="incbtn()">
+    <button class="card card-small" (click)="incre()">
       <span>Increment ++</span>
     </button>
-    <button class="card card-small" (click)="decbtn()">
+    <button class="card card-small" (click)="decre()">
       <span>Decrement --</span>
     </button>
   </div>
 
   <!-- click event task 2 -->
+  <div class="card-container">
   <div>
+  <p>{{ message }}</p></div>
+</div>
     <button class="card card-small" (click)="onClick()">Click Me</button>
-    <p>{{ message }}</p>
-  </div>
+   
 </div>

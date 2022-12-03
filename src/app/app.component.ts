@@ -12,15 +12,21 @@ export class AppComponent  {
 
   onClick() {
     this.clickCounter++;
-    if (this.clickCounter === 1) {
- this.message = ' The button clicked once...true'; }
-    if (this.clickCounter === 2) { this.message = 'The button clicked twice'; } }
-  rstbtn()
-  { this.num = 0; }
-  incbtn(){ this.num = this.num + 1; }
-  decbtn()
-  { this.num = this.num - 1;
+    if (this.clickCounter === 1)
+     {
+ this.message = ' The button clicked once...true';
+ }
+    if (this.clickCounter === 2)
+     { 
+       this.message = 'The button clicked twice'; }
+     }
+  incre(){ this.num = this.num + 1; }
+  decre()
+  { 
+    this.num = this.num - 1;
     if(this.num <0)
-    { this.num = 0;    }
+    {
+       this.num = 0; 
+         }
   }
 }
