@@ -1,3 +1,3 @@
-# taskbytvm
+# ANGULAR TRIAL
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-eynass)
+I create this list box for my knowledge verification
